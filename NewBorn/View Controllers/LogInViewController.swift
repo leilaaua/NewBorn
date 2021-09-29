@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LogInViewController: UIViewController {
+    //MARK: - IB Outlets
     @IBOutlet weak var newBornImageView: UIImageView!
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -23,7 +24,8 @@ class ViewController: UIViewController {
         
         logInButton.layer.cornerRadius = 10
     }
-
-
+    
+    
 }
+
 
