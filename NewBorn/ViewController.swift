@@ -8,10 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var newBornImageView: UIImageView!
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var logInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        newBornImageView.image = UIImage(named: "123")
+        newBornImageView.contentMode = .scaleAspectFill
+        newBornImageView.layer.cornerRadius = 10
+        
+        logInButton.layer.cornerRadius = 10
     }
 
 
